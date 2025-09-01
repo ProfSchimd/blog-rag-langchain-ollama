@@ -11,6 +11,8 @@ See the blog post [Retrieval-Augmented Generation (RAG) with LangChain and local
 ```shell
  python -m venv .venv
  source .venv/bin/activate
+ # Windows users
+ # .venv\Scripts\activate.bat 
  pip install langchain langchain-community langchainhub langchain-ollama
  curl --output cat-facts.txt "https://huggingface.co/ngxson/demo_simple_rag_py/raw/main/cat-facts.txt"
  ```

@@ -1,6 +1,6 @@
 # IMPORTS
 from langchain import hub
-from langchain.document_loaders.text import TextLoader
+from langchain.document_loaders import TextLoader
 from langchain_core.vectorstores import InMemoryVectorStore
 from langchain_ollama import ChatOllama, OllamaEmbeddings
 from langchain_text_splitters import CharacterTextSplitter
@@ -9,7 +9,7 @@ from langchain_text_splitters import CharacterTextSplitter
 
 # Load document
 file_path = "./cat-facts.txt"
-loader = TextLoader(file_path)
+loader = TextLoader(file_path, encoding="utf8") # without 'encoding' may crash
 docs = loader.load()
 
 # Split doucment into smaller chunks
