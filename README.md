@@ -1,7 +1,7 @@
 # RAG with LangChain and Ollama
 Companion repository for the blog post "Retrieval-Augmented Generation (RAG) with LangChain and local Ollama"
 
-See the blog post [Retrieval-Augmented Generation (RAG) with LangChain and local Ollama](https://skimmy.github.com/blog/rag-langchain/) for details on the repository.
+See the blog post [Retrieval-Augmented Generation (RAG) with LangChain and local Ollama](https://skimmy.github.io/blog/rag-langchain/) for details on the repository.
 
  > [!WARNING]
  > To run properly, the code in this repository requires Ollama with the model indicate in `main.py`.
